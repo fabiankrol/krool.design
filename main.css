@@ -1,0 +1,271 @@
+@font-face {
+	font-family: Cafe;
+	src: url(fonts/cafe.ttf);
+}
+
+@font-face {
+	font-family: day;
+	src: url(fonts/day.otf);
+}
+@font-face {
+	font-family: 'dosisregular';
+	src: url('fonts/dosis/dosis-regular-webfont.eot');
+	src: url('fonts/dosis/dosis-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/dosis/dosis-regular-webfont.woff') format('woff'),
+	url('fonts/dosis/dosis-regular-webfont.ttf') format('truetype'),
+	url('fonts/dosis/dosis-regular-webfont.svg#dosisregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+@font-face {
+	font-family: 'atmasemibold';
+	src: url('fonts/atma/atma-semibold-webfont.eot');
+	src: url('fonts/atma/atma-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/atma/atma-semibold-webfont.woff') format('woff'),
+	url('fonts/atma/atma-semibold-webfont.ttf') format('truetype'),
+	url('fonts/atma/atma-semibold-webfont.svg#atmasemibold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+html {
+	height: 100%;
+	text-align: justify;
+}
+p {
+	margin: auto;
+	text-align: justify;
+	font-family: 'dosisregular', sans-serif;
+}
+h1, h2, h3 {
+	text-align: center;
+	font-family: 'atmasemibold', cursive;
+}
+
+#scroll-contact, 
+#scroll-slider,
+#scroll-about,
+#scroll-products,
+.products,
+.icon
+{
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
+
+
+/*NAVBAR STYLE*/
+.navbar-brand img{
+	height: 33px;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+#my-nav a {
+	color: black;
+}
+.navbar {
+	margin-bottom: 0;
+}
+
+.icon-bar
+{
+	display:block;
+	width:22px;
+	height:2px;
+	border-radius:1px;
+	border:1px solid #444;
+}
+
+
+/*NAV BAR END*/
+
+/*TOP PAGE STYLE*/
+.topPage {
+	background-image: url("img/opacity.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	min-height: 100%;
+}
+.topPage img {
+	margin: auto;
+}
+
+#scroll-content {
+	text-align: center;
+	margin: auto;
+	padding: 20% 0;
+}
+
+.logo1 img {
+	height: 70px;
+	display: inline;
+	padding: 5px;
+}
+
+
+/*TOP PAGE END*/
+
+
+/*ABOUT STYLE*/
+#scroll-about .container  {
+	
+	text-align: center;
+	margin: auto;
+}
+
+
+/*ABOUT END*/
+
+/* GALLERY + CAROUSEL STYLE*/
+.carousel {
+	margin: auto;
+	max-width: 550px;
+}
+
+#scroll-slider .carousel {
+	
+	margin: 0 auto;
+	padding: 10%;
+}
+#scroll-gallery {
+	padding-bottom: 3%;
+	padding-top: 52px;
+}
+.carousel-indicators {
+	bottom: -10px;
+}
+.carousel-indicators li {
+	background-color: #e5edf9;
+	padding-top: 10px;
+}
+#scroll-slider .carousel-control.left {
+	
+	background-image: none;
+}
+#scroll-slider p {
+	font-size: 17px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+	margin: auto;
+}
+
+#scroll-slider .carousel-control.right {
+	
+	background-image: none;
+}
+@media screen and (max-width: 768px)
+.carousel-indicators {
+	bottom: 10px;
+}
+
+.bggray {
+	background-color: #e5edf9;
+}
+
+.carousel {
+	margin: auto;
+	max-width: 550px;
+}
+.description {
+	vertical-align: middle;
+	padding-top: 15%;
+}
+
+/*CAROUSEL END*/
+
+
+/*CONTACT STYLE*/
+.social {
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+}
+.photo img{
+	height: 225px;
+	margin: auto;
+}
+#scroll-contact {
+	padding-top: 3%;
+	text-align: center;
+
+}
+#scroll-contact p {
+	text-align: center;
+}
+
+/*CONTACT END*/
+
+/*FOOTER STYLE*/
+footer {
+	border-top: 1px solid #eaf0f2;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+footer p {
+	text-align: center;
+	font-size: 11px;
+}
+/*FOOTER END*/
+
+
+/*SMOOTH SCROLLING*/
+.scrollToTop {
+	width: 104px;
+	height: 130px;
+	padding: 10px;
+	text-align: center;
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position: fixed;
+	top: 700px;
+	right: -51px;
+	display: none;
+	background: url(img/up.png) no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+/*SMOOTH SCROLLING END*/
+
+/*PRODUCTS STYLE*/
+#scroll-products img {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#scroll-products {
+	text-align: center;
+	background-color: white;
+}
+
+#scroll-products p {
+	height: 100%
+}
+
+#scroll-products h3 {
+	padding-top: 10%;
+	padding-bottom:10%;
+}
+/*END PRODUCTS*/
+
+
+/*GALLERY*/
+.img-big {
+	width: 100%;
+}
+/*END GALLERY*/
